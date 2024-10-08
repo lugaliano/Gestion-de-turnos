@@ -19,9 +19,6 @@ public class Ejecucion {
 		
 		System.out.println("Se crearon "+cantPuestos+" puestos de atención");
 		
-		//primero el Administrador de colas tiene que inicializar los puestos
-		// para que inicialize un puesto necesita creo q primero haya una cola p asignarle(?
-		//quizas todo esto podria estar dentro de un bucle while hasta que llegue al num 42 de turnos
 		System.out.println("Tipo de turno(C/NC/J/S): ");
 		String tipo = "";
 		Scanner teclado = new Scanner(System.in);
