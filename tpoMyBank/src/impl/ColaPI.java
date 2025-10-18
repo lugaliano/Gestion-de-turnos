@@ -10,7 +10,7 @@ public class ColaPI implements ColaTDA{
 //		this.indice = indice;
 //	}
 
-	public void Acolar(int elemento){ //VER si es acolar object o int
+	public void Acolar(int elemento){ 
 		try {
 			elementos[indice] = elemento;
 			indice++;
